@@ -14,7 +14,7 @@ const Sidebar = () => {
 				<Link className='block my-6 p-2 text-xl text-gray-500 transition-colors duration-200 hover:text-blue-900 hover:bg-gradient-to-r from-blue-200 to-transparent' href='/rulesEn'><label className='p-2 animate-pulse'>■</label>
 					Rules  ( English )
 				</Link>
-				<Link className='block my-6 p-2 text-xl text-gray-500 transition-colors duration-200 hover:text-blue-900 hover:bg-gradient-to-r from-blue-200 to-transparent' href='/'><label className='p-2 animate-pulse'>■</label>
+				<Link className='block my-6 p-2 text-xl text-gray-500 transition-colors duration-200 hover:text-blue-900 hover:bg-gradient-to-r from-blue-200 to-transparent' href='/how'><label className='p-2 animate-pulse'>■</label>
 					How to use
 				</Link>
 			</div>
