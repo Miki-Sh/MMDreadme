@@ -18,6 +18,7 @@ const Home = () => {
       <h2 className='relative mt-16 mb-8 py-2 text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>やっていいこと</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>ボーン追加や衣装の変更などの改造</li>
+          <p className='text-red-700'>（※ R指定のつくような衣装への変更は禁止します）</p>
           <li>このモデルの衣装を他のモデルのお着替えに使用すること</li>
           <p className='text-red-700'>（※ お着替えするモデルの利用規約をよく読み必ず守ってください）</p>
         </ul>
