@@ -10,7 +10,7 @@ const Accordion = (props) => {
           </svg>
         </div>
       </summary>
-      <div className='pb-4 text-secondary-500'>This is the second item's accordion body.</div>
+      <div className='pb-4 text-secondary-500'>This is </div>
     </details>
   );
 };
