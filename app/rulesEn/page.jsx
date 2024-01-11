@@ -34,6 +34,15 @@ const Home = () => {
           <li>If you find this MMD Model Data redistributed by anyone other than me &quot;minmin&quot; on a NON-JAPANESE website, I would greatly appreciate it if you could ask them to delete it.</li>
           <li>If you find any works on a NON-JAPANESE website which do not follow these rules, I would greatly appreciate it if you can ask that individual to delete that video and / or image.</li>
         </ul>
+      <h2 className='relative my-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>使用ツール</h2>
+        <ul className='pl-8 text-left list-disc'>
+          <li>blender ver3.6.5</li>
+          <li>MikuMikuDance ver9.32　　Yu Higuchi</li>
+          <li>PmxEditor ver0.2.7.3　　kyokuhokuP</li>
+          <li>SemiStandardBones plugin　　soboro</li>
+          <li>GripsX2　　　kaz</li>
+          <li>Leg-outward Morph add Plugin　　nononoP</li>
+        </ul>
       <h2 className='relative mt-16 mb-8 py-2 md:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>Update history</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>2024/1/12　distribute</li>

@@ -10,6 +10,7 @@ const Home = () => {
           <li><Link className='font-semibold underline decoration-3 underline-offset-4 hover:animate-pulse' href='https://q-ku.blog.jp/archives/11315486.html'>こちらのブログ記事</Link>を参考に、実験的に襟ボーンと袖ボーンを導入しています。
             くわしくは、以下の「首まわりのこと」「腕のこと」の項目を読んでください。
           </li>
+          <li>準標準ボーンひと通りと<Link className='font-semibold underline decoration-3 underline-offset-4 hover:animate-pulse' href='https://paperguitar.com/mmd-related-items/160-gripsx2.html'>握り拡散ボーン</Link>入れてます。が、プラグイン丸投げなので動作わかりません...</li>
         </ul>
       <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>表情モーフのこと</h2>
         <div className='text-left'>
@@ -29,6 +30,11 @@ const Home = () => {
           というツールも配布してくださっているので、そちらを使われると良いかもです。<br /><br />
           　ここからは、当モデルの構造の話です。前腕の服のウェイトがちょっと変わってまして、内側の袖は、普通にひじボーンと腕捻りボーンに連動してますが、外側のふわっとした袖のひじから先は袖ボーンに連動してます。
           襟ボーンと同じ理屈なので、捻りでの袖グシャア現象が若干マシですが、結局のところひじを100°以上曲げれば内側の袖なんかが貫通してチラチラ見えます。<label className='text-sm text-gray-400 line-through'>（誰かどうにかして）</label>試行錯誤中なのでもしかしたら今後構造全く変えるかもです。
+        </div>
+      <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>がに股モーフ</h2>
+        <div className='text-left'>
+          　がに股モーフというものを導入しています。くわしくは考案者の<Link className='font-semibold underline decoration-3 underline-offset-4 hover:animate-pulse' href='https://site.nicovideo.jp/ch/userblomaga_thanks/archive/ar298357'>切な顔P様のブロマガ</Link>をご確認ください。<br />
+          　女の子のモーションをお借りすると内股過ぎてなんか違和感...って時に楽に修正するためのモーフです。モーションとモデルの相性に合わせていい感じに使ってください。
         </div>
       <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>終わりに</h2>
         <div className='text-left'>

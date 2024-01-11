@@ -47,7 +47,16 @@ const Home = () => {
           </div>
         }
       />
-      <h2 className='relative mt-8 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>更新履歴</h2>
+      <h2 className='relative my-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>使用ツール</h2>
+        <ul className='pl-8 text-left list-disc'>
+          <li>blender ver3.6.5</li>
+          <li>MikuMikuDance ver9.32　　樋口優</li>
+          <li>PmxEditor ver0.2.7.3　　極北P</li>
+          <li>準標準ボーン追加プラグイン　　そぼろ</li>
+          <li>Grips 手握り・拡散ボーン追加プラグイン　　kaz</li>
+          <li>がに股モーフ追加プラグイン　　のののP</li>
+        </ul>
+      <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>更新履歴</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>2024/1/12　配布開始</li>
         </ul>
