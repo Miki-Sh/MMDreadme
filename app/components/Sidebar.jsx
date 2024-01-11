@@ -20,7 +20,7 @@ const Sidebar = () => {
 			</div>
 			<h2 className='relative mt-16 mb-8 p-2 pl-10 bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 text-3xl animate-pulse'>■</label>Created by</h2>
 			<div className='text-xl text-gray-500'>
-				<p className='ml-4 pb-6 text-2xl text-blue-900'><label className='text-4xl'>みんみん</label>   ( minmin )</p>
+				<p className='ml-4 pb-6 text-2xl text-blue-900'><label className='text-4xl'>みんみん</label> <br />minmin</p>
 				<p className='ml-4'>NicoNicoDouga</p>
 				<Link href='https://www.nicovideo.jp/user/21766196' className='flex items-center py-2 hover:text-blue-900 hover:bg-gradient-to-r from-blue-200 to-transparent'>
 					<Image className='mx-4 animate-pulse' src='/nico.png' alt='youtube' height={30} width={30} /> 21766196
