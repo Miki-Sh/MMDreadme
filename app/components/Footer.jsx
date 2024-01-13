@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className='xl:hidden flex justify-between mx-2 mb-2 text-xs text-gray-500'>
+    <div className='lg:hidden flex justify-between mx-2 mb-2 text-xs text-gray-500'>
       <p className='ml-4 text-blue-900'><label className='text-xl'>みんみん</label><br />minmin</p>
       {/* <p className='ml-4'>NicoNicoDouga</p> */}
       <Link href='https://www.nicovideo.jp/user/21766196' className='md:flex items-center hover:underline decoration-4 underline-offset-8'>

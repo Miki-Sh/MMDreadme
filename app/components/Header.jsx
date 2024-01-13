@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Header = () => {
   // const [ menuOpen, setMenuOpen ] = useState(false);
   return (
-    <div className='xl:hidden flex justify-between items-center top-0 h-12 w-full pl-2'>
+    <div className='lg:hidden flex justify-between items-center top-0 h-12 w-full pl-2'>
       {/* <button onClick={() => setMenuOpen(true)} className='sm:hidden underline decoration-4 underline-offset-8 mx-8 text-2xl text-blue-900 hover:animate-pulse' >Menu</button> */}
       {/* { menuOpen && <Navigation setMenuOpen={setMenuOpen} /> } */}
       <div className='flex right-0 items-center justify-items-end text-sm md:text-xl'>
