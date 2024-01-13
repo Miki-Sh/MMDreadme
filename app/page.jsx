@@ -44,7 +44,7 @@ const Home = () => {
             </ul>
             というような利用方法も可とします。ただし、<label className='text-red-700'>女の子のキャラなのに首から下は男性のまま等の、雑な改造は禁止</label>とします。
             完璧にしろとは言いませんが、キャラに愛のある改造をお願いします。<br />
-            　当モデルデータを元に作成したモデルを配布する場合は、<label className='font-semibold underline'>当モデル配布動画をニコニコ動画のコンテンツツリーに登録</label>または、
+            　当モデルデータを元に作成したモデルを配布する場合は、<label className='font-semibold underline'><Link className='hover:animate-pulse' href='https://www.nicovideo.jp/watch/sm43259321'>当モデル配布動画</Link>をニコニコ動画のコンテンツツリーに登録</label>または、
             <label className='font-semibold underline'>配布データのreadmeなどに当モデルを改造し作成した旨を記載</label>お願いします。<br /><br />
             　水星の魔女という作品が、エラン・ケレスというキャラが大好きで、もっとエランさんや水星の魔女のMMD作品が増えて欲しいとの願いから、
             上記の特例を設けました。拙いながらもモデルを1から作成して配布に踏み切ったのも、水星のMMDが少しでも発展する一助になればとの願いと、
