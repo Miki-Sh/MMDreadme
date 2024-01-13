@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 const Home = () => {
   return (
     <div className='text-center text-sm md:text-2xl text-blue-950'>
@@ -28,13 +31,17 @@ const Home = () => {
           <li>It can be used in videos, pictures.</li>
           <li>You can edit this model as long as you do not distribute the edit.</li>
           <li>You can edit costume, texture, physics.</li>
+          <li><p className='flex items-center'>
+            <Link className='hover:underline decoration-4 underline-offset-8 hover:animate-pulse' href='https://bowlroll.net/file/312310'>Download here</Link>
+            <Image className='mx-2' src='/key.svg' alt='key' height={20} width={20} />Tell me more about you
+          </p></li>
         </ul>
       <h2 className='relative mt-16 mb-8 py-2 md:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>Please</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>If you find this MMD Model Data redistributed by anyone other than me &quot;minmin&quot; on a NON-JAPANESE website, I would greatly appreciate it if you could ask them to delete it.</li>
           <li>If you find any works on a NON-JAPANESE website which do not follow these rules, I would greatly appreciate it if you can ask that individual to delete that video and / or image.</li>
         </ul>
-      <h2 className='relative my-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>使用ツール</h2>
+      <h2 className='relative my-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>Tools</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>blender ver3.6.5</li>
           <li>MikuMikuDance ver9.32　　Yu Higuchi</li>
@@ -45,7 +52,7 @@ const Home = () => {
         </ul>
       <h2 className='relative mt-16 mb-8 py-2 md:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>Update history</h2>
         <ul className='pl-8 text-left list-disc'>
-          <li>2024/1/12　distribute</li>
+          <li>2024/1/13　ver0.54</li>
         </ul>
       
     </div>

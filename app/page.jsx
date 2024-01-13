@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Image from 'next/image';
 import Accordion from '/app/components/Accordion';
 
 const Home = () => {
@@ -20,9 +22,13 @@ const Home = () => {
       <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>やっていいこと</h2>
         <ul className='pl-8 text-left list-disc'>
           <li>ボーン追加や衣装の変更などの改造</li>
-          <p className='text-red-700'>（※ R指定のつくような衣装への変更は禁止します）</p>
+            <p className='text-red-700'>（※ R指定のつくような衣装への変更は禁止します）</p>
           <li>このモデルの衣装を他のモデルのお着替えに使用すること</li>
-          <p className='text-red-700'>（※ お着替えするモデルの利用規約をよく読み必ず守ってください）</p>
+            <p className='text-red-700'>（※ お着替えするモデルの利用規約をよく読み必ず守ってください）</p>
+          <li><p className='flex items-center'>
+            <Link className='hover:underline decoration-4 underline-offset-8 hover:animate-pulse' href='https://bowlroll.net/file/312310'>ダウンロードはこちら</Link>
+            <Image className='mx-2' src='/key.svg' alt='key' height={20} width={20} />Tell me more about you
+          </p></li>
         </ul>
       <Accordion
         title={ <h2 className='pl-10 2xl:pl-72'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>水星の魔女のキャラクターに限る特例</h2> }
@@ -58,9 +64,8 @@ const Home = () => {
         </ul>
       <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>更新履歴</h2>
         <ul className='pl-8 text-left list-disc'>
-          <li>2024/1/12　配布開始</li>
+          <li>2024/1/13　配布開始 ver0.54</li>
         </ul>
-      
     </div>
   )
 };
