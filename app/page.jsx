@@ -64,7 +64,8 @@ const Home = () => {
         </ul>
       <h2 className='relative mt-16 mb-8 py-2 sm:text-3xl bg-gradient-to-r from-blue-200 to-transparent border-l-2 border-b-2 border-blue-900'><label className='absolute left-2 bottom-1 animate-pulse'>■</label>更新履歴</h2>
         <ul className='pl-8 text-left list-disc'>
-          <li>2024/1/13　配布開始 ver0.54</li>
+          <li>2024/1/13　ver0.54　配布開始</li>
+          <li>2024/2/21　ver0.55　ボーンを若干修正しました</li>
         </ul>
     </div>
   )
